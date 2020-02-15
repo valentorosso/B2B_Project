@@ -1,0 +1,34 @@
+<svg width="111px" height="71px" viewBox="0 0 111 71" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>reg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile_app" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+       transform="translate(-289.000000, -1565.000000)">
+        <g id="reg" transform="translate(281.000000, 1536.000000)">
+            <polyline id="Stroke-5" stroke="#0B84FF" stroke-width="2"
+                      points="91.5806452 39 9 39 9 98.6571429 116.354839 98.6571429 116.354839 47.2285714"></polyline>
+            <path d="M85,89 L103.580645,89" id="Stroke-6" stroke="#0B84FF" stroke-width="2"
+                  stroke-linejoin="round"></path>
+            <path d="M25,64 L62,64" id="Stroke-8" stroke="#0B84FF" stroke-width="2"
+                  stroke-linejoin="round"></path>
+            <path d="M25,74 L42.7727231,74" id="Stroke-8-Copy" stroke="#0B84FF" stroke-width="2"
+                  stroke-linejoin="round"></path>
+            <path d="M24.6296296,54 L70.8387097,54" id="Stroke-9" stroke="#0B84FF" stroke-width="2"
+                  stroke-linejoin="round"></path>
+            <path d="M111.82271,44.4335429 L73.4516129,82.6676 L59,88.8390286 L65.1935484,74.4390286 L103.564645,36.2049714 C105.177032,34.5983429 107.79071,34.5983429 109.403097,36.2049714 L111.82271,38.6159429 C113.435097,40.2225714 113.435097,42.8269143 111.82271,44.4335429 Z"
+                  id="Stroke-14" stroke="#0B84FF" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M108,34.9659429 L112.129032,30.8516571 C113.268645,29.7161143 115.118452,29.7161143 116.258065,30.8516571 C117.397677,31.9872 117.397677,33.8304 116.258065,34.9659429 L112.129032,39.0802286"
+                  id="Stroke-15" stroke="#0B84FF" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M100,39 L108.258065,47.2285714" id="Stroke-16" stroke="#0B84FF" stroke-width="2"
+                  stroke-linejoin="round"></path>
+            <path d="M67,72 L75.2580645,80.2285714" id="Fill-17" fill="#A3D4FF"></path>
+            <path d="M67,72 L75.2580645,80.2285714" id="Stroke-18" stroke="#0B84FF"
+                  stroke-width="2"></path>
+            <path d="M81.1290323,89 L77,89" id="Stroke-20" stroke="#0B84FF" stroke-width="2"
+                  stroke-linejoin="round"></path>
+            <rect id="Rectangle-Copy" x="0" y="0" width="128" height="128"></rect>
+        </g>
+    </g>
+</svg>

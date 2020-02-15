@@ -1,0 +1,743 @@
+/* Browser Reset */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1.4;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* FONT */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #323232;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #0b84ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* HEADER
+====================================================*/
+
+header {
+    background-color: #0779ff;
+    background: url("../img/backgrounds/bg-header.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 869px;
+    position: relative;
+}
+
+/* WELCOME
+-------------------------------------------------- */
+
+.welcome {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.welcome h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7rem;
+    color: #fff;
+    font-weight: 500;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.welcome p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.welcome img {
+    margin: 20px 0px;
+}
+
+/* ABOUT
+====================================================*/
+
+#about {
+    margin-top: -190px;
+}
+
+#about .content {
+    background: #fff;
+    padding: 60px 90px 60px 60px;
+    margin: 0px;
+    margin-top: 80px;
+    text-align: left;
+}
+
+#about .content p {
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 10px 0px;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.neg-margin{
+    margin-top: -10px;
+}
+
+/* FEATURES
+====================================================*/
+.fa {
+    color: #0b84ff;
+    font-size: 100px;
+}
+
+#features .content p {
+    padding: 0px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CONTACT
+====================================================*/
+
+input[type="text"], input[type="email"], input[type="password"] {
+    border: 1px solid #dddddd !important;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus{
+    border: 1px solid #323232!important;
+    outline: none!important;
+}
+
+#contact {
+    margin-top: -35px;
+}
+
+#contact h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0b2f5b;
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+#contact .content .header {
+    padding-top: 70px;
+    padding-bottom: 45px;
+}
+
+#contact-form label {
+    display: block;
+    color: #dbdbdb;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: left;
+}
+
+.checkbox label {
+    padding: 0;
+    margin: 31px 0;
+    font-size: 16px !important;
+    color: black !important;
+}
+
+.checkbox .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: 20px;
+}
+
+.checkbox .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.checkbox label input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon {
+    opacity: 0;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon {
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr {
+    opacity: .5;
+}
+
+#contact-form label.error {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    line-height: 12px;
+    color: red;
+}
+
+#contact-form input[type="text"], form input[type="password"], form input[type="date"], form input[type="datetime"], form input[type="datetime-local"], form input[type="month"], form input[type="week"], form input[type="email"], form input[type="number"], form input[type="search"], form input[type="tel"], form input[type="time"], form input[type="url"], form textarea {
+    width: 100%;
+    height: 55px;
+    padding: 16px 24px;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 20px;
+    color: #323232;
+    margin: 10px 0px;
+}
+
+#contact-form textarea {
+    height: auto;
+}
+
+#contact-form .btn-primary {
+    color: #0b84ff;
+    background-color: transparent;
+    border: 2px solid #0b84ff;
+    font-size: 18px;
+    font-weight: 400;
+    width: 210px;
+    height: 55px;
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#contact-form .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active {
+    background-color: #0b84ff;
+    color: #fff;
+    border: 0px;
+}
+
+#contact-form fieldset {
+    border: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+#success, #error {
+    display: none;
+}
+
+#contact-form #success span, #contact-form #error span {
+    display: block;
+    font-size: 14px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#contact-form ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #b3b3b3;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+#contact-form ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #b3b3b3;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+#contact-form :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #b3b3b3;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+#contact-form :-moz-placeholder {
+    /* Firefox 18- */
+    color: #b3b3b3;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+#contact-form .required ::-webkit-input-placeholder:after {
+    content: " *";
+    color: red;
+}
+
+#contact-form .required :-moz-placeholder:after {
+    content: " *";
+    color: red;
+}
+
+#contact-form .required :-ms-input-placeholder:after {
+    content: " *";
+    color: red;
+}
+
+#contact-form .success h2 {
+    color: #0c2f5b;
+}
+
+#contact-form .error h2 {
+    color: crimson;
+}
+
+.help-block,.has-error {
+    margin-top: 0px;
+    font-size: 15px;
+    color: red!important;
+}
+
+/* ELEMENTS
+====================================================*/
+
+/* CONTENT
+--------------------------------------------------*/
+
+.content {
+    margin: 80px 0px;
+    text-align: center;
+}
+
+.content h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 500;
+    color: #0c2f5b;
+    padding: 10px 0px;
+}
+
+.content h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.1rem;
+    color: #0c2f5b;
+    padding: 20px 0px;
+    font-weight: 500;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.content p {
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content .header {
+    padding-bottom: 60px;
+}
+
+.bg-color {
+    background-color: #f7fafd;
+}
+
+/*  NEW STYLES ELEMENTS
+-------------------------------------------------- */
+
+.deal-block {
+    margin: 80px 0px;
+}
+
+.deal-block h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #0c2f5b;
+    padding-bottom: 10px;
+}
+
+.deal-block p {
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.get-started-block {
+    text-align: center;
+    margin: 110px 0 50px 0;
+}
+
+.get-started-block h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #0c2f5b;
+    padding: 10px 0px;
+}
+
+.get-started-block p {
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.collapse-item {
+    border: 1px solid #E8ECF1;
+    padding: 15px;
+    box-shadow: 0 0 1px #E8ECF1;
+    margin-bottom: 10px;
+}
+
+.collapse-item a {
+    display: block;
+}
+
+.collapse-item a:hover {
+    cursor: pointer;
+}
+
+a[aria-expanded=false] .arrow::after {
+    float: right;
+    font-size: 12px;
+    content: "\232A";
+    line-height: 3rem;
+    color: #489CFF;
+    transform: rotate(90deg);
+}
+
+a[aria-expanded=true] .arrow::after {
+    float: right;
+    font-size: 12px;
+    content: "\232A";
+    line-height: 2rem;
+    color: #489CFF;
+    transform: rotate(-90deg);
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px 0 41px;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+/*====================================================*/
+
+/* BUTTONS PURCHASE
+-------------------------------------------------- */
+
+.btn-purchase {
+    color: #0b84ff;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 16px 36px;
+    border: 2px solid #0b84ff;
+    display: inline-block;
+    margin: 20px 0px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-purchase:hover {
+    color: #fff;
+    background: #0b84ff;
+    text-decoration: none;
+}
+
+.btn-purchase.white {
+    background: #fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+}
+
+.btn-purchase.white:hover {
+    color: #fff;
+    background: transparent;
+    text-decoration: none;
+}
+
+.btn-purchase.blue {
+    background: #0b84ff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-purchase.blue:hover {
+    color: #fff;
+    border-color: #fff;
+    background: transparent;
+    text-decoration: none;
+}
+
+.welcome .btn-purchase.white {
+    margin: 20px 0px;
+}
+
+.login-btn {
+    text-align: left;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+/* CALL TO ACTION - CTA
+-------------------------------------------------- */
+
+.cta {
+    position: relative;
+}
+
+.cta-bg {
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cta-image-1 {
+    background-image: url("../img/backgrounds/background-image-1.jpg");
+}
+
+.cta.content {
+    margin: 80px 0px;
+}
+
+.cta h3 {
+    font-size: 8rem;
+    color: #fff;
+    font-weight: 100;
+    padding: 0px;
+}
+
+.cta p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+#stats.cta span {
+    font-style: normal;
+    font-size: 80px;
+    line-height: 120px;
+    color: #fff;
+    font-weight: 100;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cta .box-container {
+    width: 50%;
+}
+
+.cta .box-container .inner {
+    max-width: 400px;
+    text-align: left;
+    float: right;
+}
+
+#contact-us.cta h3 {
+    font-size: 7rem;
+}
+
+#contact-us.cta p {
+    font-weight: 200;
+    font-size: 1.9rem;
+    line-height: 2.7rem;
+}
+
+.mr-80 {
+    margin-right: 60px;
+}
+
+.mr-80 h2 {
+    margin-top: -12px;
+}
+
+/* SCROLL UP
+-------------------------------------------------- */
+
+.scrollup {
+    width: 48px;
+    height: 42px;
+    opacity: 1;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 999;
+    background: #fff;
+    border: 1px solid #eeeeee;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.scrollup:hover {
+    background: #0b84ff;
+    border: 1px solid #0b84ff;
+}
+
+.scrollup i {
+    padding-top: 9px;
+    font-size: 2rem;
+    color: #999999;
+    width: 48px;
+    height: 42px;
+    margin-left: -1px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.scrollup i:hover {
+    color: #fff;
+}
+
+/* PULSE ARROW ANIMATION
+-------------------------------------------------- */
+
+.pulse {
+    -moz-animation: pulse 1.5s infinite;
+    -webkit-animation: pulse 1.5s infinite;
+    animation: pulse 1.5s infinite;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    50% {
+        -webkit-transform: translate(0, 10px);
+        transform: translate(0, 10px);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    50% {
+        -webkit-transform: translate(0, 10px);
+        transform: translate(0, 10px);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+/* PAGE LOADER
+-------------------------------------------------- */
+
+.loader-container {
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    z-index: 99999;
+    position: fixed;
+}
+
+.loader:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    border-radius: 50%;
+    border-top: 2px solid #07d;
+    border-right: 2px solid transparent;
+    animation: loader .6s linear infinite;
+}
+
+@keyframes loader {
+    to {
+        transform: rotate(360deg);
+    }
+}

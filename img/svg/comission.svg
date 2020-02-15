@@ -1,0 +1,28 @@
+<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>commiss</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile_app" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+       transform="translate(-176.000000, -3370.000000)" stroke-linecap="round"
+       stroke-linejoin="round">
+        <g id="commiss" transform="translate(176.000000, 3371.000000)" stroke="#0B84FF">
+            <polyline id="Stroke-1"
+                      points="9.39130435 11.3896178 5.56521739 13.8667733 0 9.95566222"></polyline>
+            <polygon id="Stroke-5"
+                     points="9.39130435 7.79978667 3.66469565 3.84352 6.24208696 2.25418667 7.75617391 3.22556444 12.173913 6.05969778 12.173913 11.7478756 9.39130435 13.5821867"></polygon>
+            <polyline id="Stroke-10"
+                      points="9.39130435 7.83406222 6 10 0.5 6.5 4.1133913 4.15335111"></polyline>
+            <polyline id="Stroke-12"
+                      points="6.62998261 2.49980444 10.4348522 -0.000106666667 16.0000696 3.55544889 12.1545043 6.04504889"></polyline>
+            <polyline id="Stroke-14"
+                      points="9.39130435 9.61813333 5.56521739 12.0888889 0 8.17777778"></polyline>
+            <path d="M16,5.33333333 L12.1749565,7.80942222" id="Stroke-16"></path>
+            <polyline id="Stroke-18"
+                      points="9.39130435 13.1673956 5.56521739 15.6445511 0 11.73344"></polyline>
+            <path d="M16,8.88888889 L12.1735652,11.3660444" id="Stroke-20"></path>
+            <path d="M16,7.11111111 L12.173913,9.58826667" id="Stroke-22"></path>
+        </g>
+    </g>
+</svg>

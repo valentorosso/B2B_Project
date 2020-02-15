@@ -1,0 +1,27 @@
+<svg width="112px" height="81px" viewBox="0 0 112 81" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile_app" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+       transform="translate(-1059.000000, -1580.000000)">
+        <g id="Page-1" transform="translate(1051.000000, 1556.000000)">
+            <rect id="Path-Copy" x="0" y="0" width="128" height="128"></rect>
+            <polygon id="Stroke-6" stroke="#0B84FF" stroke-width="2"
+                     points="9 46.0239651 118.676661 46.0239651 118.676661 103.935367 9 103.935367"></polygon>
+            <path d="M102.121693,93.594045 L25.5549677,93.594045 C25.5549677,90.166931 22.7758025,87.389252 19.3468548,87.389252 L19.3468548,62.5700799 C22.7758025,62.5700799 25.5549677,59.7924009 25.5549677,56.3652869 L102.121693,56.3652869 C102.121693,59.7924009 104.900858,62.5700799 108.329806,62.5700799 L108.329806,87.389252 C104.900858,87.389252 102.121693,90.166931 102.121693,93.594045 Z"
+                  id="Stroke-10" stroke="#0B84FF" stroke-width="2"></path>
+            <path d="M37.9711934,74.9796659 L44.1793063,74.9796659" id="Stroke-12" stroke="#0B84FF"
+                  stroke-width="2"></path>
+            <path d="M83.4973545,74.9796659 L89.7054674,74.9796659" id="Stroke-14" stroke="#0B84FF"
+                  stroke-width="2"></path>
+            <path d="M52.463826,74.9682905 C52.4679647,69.2578126 57.5648254,62.562841 63.849505,62.5649092 C70.1321152,62.5669775 75.2227678,69.2660857 75.2206984,74.9786318 C75.2165597,80.6891097 70.1176296,87.3840813 63.8350194,87.3820131 C57.5503398,87.3799448 52.4596872,80.6787683 52.463826,74.9682905 Z"
+                  id="Stroke-18" stroke="#0B84FF" stroke-width="2"></path>
+            <path d="M15.2081129,35.6826434 L112.468548,35.6826434" id="Stroke-20" stroke="#0B84FF"
+                  stroke-width="2"></path>
+            <path d="M23.4855967,25.3413217 L104.191064,25.3413217" id="Stroke-22" stroke="#0B84FF"
+                  stroke-width="2"></path>
+        </g>
+    </g>
+</svg>

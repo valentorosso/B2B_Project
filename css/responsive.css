@@ -1,0 +1,129 @@
+@media screen and (max-width: 992px) {
+    .white-bg { display: none;}    
+	.cta .box-container {
+		width: 100%;
+		text-align: center;
+	}
+	.cta .box-container .inner {
+		text-align: center;
+		float: none;
+		max-width: 100%;
+		margin-bottom: 15px;		
+	}
+	.welcome h1 {
+		font-size: 6rem;
+	}
+	.welcome p {
+		font-size: 2.1rem;
+	}
+	#footer .inside .social {
+		padding-bottom: 45px;
+	}
+	#footer .inside {
+		height: 100%;
+	}
+	#about .content {
+			padding: 40px 0px 60px 0px;
+			margin-top: 0px;
+			text-align: center;
+	}
+	.mobile-center {
+		text-align: center;
+	}
+	.m-margin {
+		margin-bottom: 45px;
+	}
+	.navbar .navbar-nav>li {
+		padding: 15px 10px;
+	}
+    .welcome {
+        margin-top: 60px;
+    }
+	.login-btn {
+		text-align: right;
+	}
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+	#about .content {
+			text-align: center;
+	}
+	.content p {
+		max-width: 450px;
+		margin: 0 auto;
+	}
+	.welcome p {
+		max-width: 450px;
+		margin: 0 auto;
+	}
+	.login-btn {
+		text-align: right;
+	}
+}
+@media screen and (max-width: 992px), only screen and (width : 1024px) and (orientation : landscape) {
+	header, .cta-bg {
+		background-attachment: scroll;
+	}
+}
+@media screen and (max-width: 768px) {
+	.navbar .navbar-nav>li {
+		padding: 8px 5px;	
+        border-bottom: 1px solid #4c77a0;
+	}
+    .navbar .navbar-nav>li:first-child {
+        border-top: 1px solid #4c77a0;
+    }
+    .navbar.affix .navbar-nav>li {
+        border: none;
+    }
+	.navbar .navbar-collapse, .navbar .navbar-form {
+		text-align: center;
+        box-shadow: none;
+	}
+	#contact-form form textarea {
+		width:100%;
+	}
+	#contact-form form input[type="text"], form input[type="password"], form input[type="date"], form input[type="datetime"], form input[type="datetime-local"], form input[type="month"], form input[type="week"], form input[type="email"], form input[type="number"], form input[type="search"], form input[type="tel"], form input[type="time"], form input[type="url"], form textarea {
+		width: 100%;
+	}
+	.login-btn {
+		text-align: left;
+	}
+	.verify-block{
+		padding-left: 0!important;
+	}
+	.pr-0{
+		padding-right: 15px!important;
+	}
+}
+@media screen and (max-width: 600px) {
+	#newsletter form input[type=submit] {
+		margin-top: 30px;
+	}
+	#contact-us.cta h3, #newsletter.cta h3 {
+		font-size: 4rem;
+	}
+	.login-btn {
+		text-align: left;
+	}
+}
+
+@media (max-width: 480px) {
+    #about {
+        margin-top: -120px;
+    }
+    .menu-spacer {
+    height: 40px;
+    }
+	header {
+		height: 760px;
+	}
+	.welcome h1 {
+		font-size: 4rem;
+	}
+	.welcome p {
+		font-size: 1.7rem;
+	}
+	.login-btn {
+		text-align: left;
+	}
+}
